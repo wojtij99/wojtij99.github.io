@@ -1,0 +1,76 @@
+{
+    "projects" :[
+        {
+            "title": "DEVI 2.0",
+            "date_start": "2023",
+            "imgs": ["Devi1.png","Devi2.png","Devi3.png"],
+            "about": {
+                "pl": "Zaawansowana aplikacja internetowa do zarządzania bazą danych dla firm z prostym interfejsem użytkownika. Dodatkowo posiada moduł DEVI Sheet - arkusz kalkulacyjny z połączeniem z BD. Back-end stworzony w C++ i Crow Framework. Frontend stworzony w Angularze.",
+                "en": "Advanced web application to manage data base for companies with simple UI. Additional have DEVI Sheet module - spreadsheet with connection to BD. Back-end created in C++ and Crow Framework. Frontend created in Angular."
+            },
+            "tags": ["C++", "crow", "MySQL"],
+            "github": null,
+            "seeIt": "https://www.devisystem.pl"
+        },
+        {
+            "title": "Solls Active Sky Configurator",
+            "date_start": "2022",
+            "imgs": ["SollsKom1.png"],
+            "about": {
+                "pl": "Aplikacja do zarządzania systemem SollS Active Sky (DALI) po przez COM(RS232).",
+                "en": "Application to manage Solls Active Sky system (DALI) by COM(RS232)."
+            },
+            "tags": ["C#", ".Net"],
+            "github": null,
+            "seeIt": null
+        },
+        {
+            "title": "Arcanoid [Nowszy]",
+            "date_start": "2022",
+            "imgs": ["ArcanoidIm.png"],
+            "about": {
+                "pl": "Ten projekt powstał, gdy uczyłem mojego kolegę programowania w C++. Jest on lepiej napisany niż ten poprzedni.",
+                "en": "This Project was created when I was teaching my friend programming in C++. It is better written than the previous one."
+            },
+            "tags": ["C++", "SFML"],
+            "github": "https://github.com/wojtij99/Arcanoid_Improved",
+            "seeIt": null
+        },
+        {
+            "title": "Star*Game",
+            "date_start": "2021",
+            "imgs": ["StarGame1.png","StarGame2.png","StarGame3.png"],
+            "about": {
+                "pl": "Kopia gry przeglądarkowej \"Ogame\". Back-end napisany w C# .Net Framework.",
+                "en": "A copy of the browser game \"Ogame\". Back-end written in C# .Net Framework."
+            },
+            "tags": ["C#", ".NET", "MySQL"],
+            "github": "https://github.com/wojtij99/StarGame",
+            "seeIt": null
+        },
+        {
+            "title": "Solls Service Terminal",
+            "date_start": "2021",
+            "imgs": ["SollsTerm1.png","SollsTerm2.png","SollsTerm3.png","SollsTerm4.png"],
+            "about": {
+                "pl": "Aplikacja do wysyłania i odczytu danych z linii DALI poprzez kontroler SAS.",
+                "en": "Application to send and read data from DALI line through SAS controller."
+            },
+            "tags": ["C#", ".Net"],
+            "github": null,
+            "seeIt": null
+        },
+        {
+            "title": "Arcanoid",
+            "date_start": "2018",
+            "imgs": ["Arcanoid1.png", "Arcanoid0.png", "Arcanoid2.png"],
+            "about": {
+                "pl": "Mój pierwszy projekt w SFML.",
+                "en": "My first SFML project."
+            },
+            "tags": ["C++", "SFML"],
+            "github": "https://github.com/wojtij99/Arcanoid_Improved",
+            "seeIt": null
+        }
+    ]
+}

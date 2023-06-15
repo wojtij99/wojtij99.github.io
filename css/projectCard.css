@@ -1,0 +1,128 @@
+.projectCard
+{
+    display: flex;
+    background-color: var(--second_color);
+    border-radius: 1rem;
+    padding: 15px 10px;
+    /* font-size: 1.3rem; */
+    margin-bottom: 2rem;
+    box-shadow: 0 0.393927px 0.324411px rgba(0,0,0,.034), 0 0.915912px 0.754281px rgba(0,0,0,.049), 0 1.64477px 1.35451px rgba(0,0,0,.06), 0 2.7297px 2.24799px rgba(0,0,0,.07), 0 4.49709px 3.70349px rgba(0,0,0,.081), 0 7.85962px 6.47262px rgba(0,0,0,.096), 0 17px 14px rgba(0,0,0,.13);
+}
+
+.projectCard .PC_imgBox
+{
+    width: 60%;
+}
+
+.projectCard .PC_imgBox .PC_img
+{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.PC_content
+{
+    margin-left: 10px;
+    width: 40%;
+}
+
+.PC_titleElem
+{
+    display: inline-block;
+}
+
+.PC_h1
+{
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 2rem;
+    margin-bottom: 0.2rem;
+    width: 70%;
+}
+
+.PC_year
+{
+    font-size: 1.17rem;
+    margin-left: 1rem;
+    font-weight: 900;
+    color: var(--container_color);
+}
+
+.tagsHolder
+{
+    clear: both;
+}
+
+.projectCard button
+{
+    font-size: 1.3rem;
+    padding: .3rem .4rem;
+    border-radius: 0.5rem;
+    background-color: var(--accent_color);
+    border: 0;
+    box-shadow: 0 0.393927px 0.324411px rgba(0,0,0,.034), 0 0.915912px 0.754281px rgba(0,0,0,.049), 0 1.64477px 1.35451px rgba(0,0,0,.06), 0 2.7297px 2.24799px rgba(0,0,0,.07), 0 4.49709px 3.70349px rgba(0,0,0,.081), 0 7.85962px 6.47262px rgba(0,0,0,.096), 0 17px 14px rgba(0,0,0,.13);
+}
+
+.PC_text
+{
+    
+}
+
+/*  SLIDER */
+
+.dotContainer
+{
+    text-align:center;
+    background-color: var(--container_color);
+    padding: 2px;
+    border-radius: 0.8rem;
+    width: 100%;
+}
+
+.dotContainerElement
+{
+    display: inline-block;
+}
+
+.dotHolder
+{
+    width: 88%;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: var(--accent_color);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: rgb(87, 87, 87);
+
+}
+
+.prev, .next
+{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 2px;
+    background-color: var(--accent_color);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+button i
+{
+    float: left;
+}
+
+button div
+{
+    float: left;
+}

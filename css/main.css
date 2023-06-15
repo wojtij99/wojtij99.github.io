@@ -1,0 +1,256 @@
+@import url('variables.css');
+@import url('small_card.css');
+@import url('projectCard.css');
+
+html,body
+{
+    z-index: 0;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--main_color);
+    color: var(--text_color);
+    /* width: 100vw !important; */
+}
+
+.chapter
+{
+    padding: 0 10%;
+}
+
+header
+{
+    width: 100%;
+    /* min-height: 100px; */
+    background-color: var(--second_color);
+    display: flex;
+    justify-content: center;
+}
+
+nav
+{
+    display: flex;
+    /* justify-self: center; */
+    /* justify-content: center; */
+}
+
+nav > div
+{
+    font-size: 2rem;
+    /* display: inline-block; */
+    color: rgba(0, 255, 204, 0.53);
+    margin-left: 2rem;
+    transition: 0.6s ease;
+    /* -webkit-text-stroke: 1px rgba(0, 0, 0, 0.334); */
+}
+
+nav > div:hover
+{
+    background-color: rgba(255, 255, 255, 0.316);
+    margin: 0 1rem 0 3rem;
+}
+
+nav > div > a, nav > div > a:visited, nav > div > a:link
+{
+    color: rgba(0, 255, 204, 0.53);
+}
+
+nav > div > a > div
+{
+    padding: 0 1rem;
+}
+
+nav > div > hr
+{
+    border: 1px solid var(--text_color);
+    border-radius: 1rem;
+    margin-top: 0.4rem;
+    box-shadow: 0 0.393927px 0.324411px rgba(0,0,0,.034), 0 0.915912px 0.754281px rgba(0,0,0,.049), 0 1.64477px 1.35451px rgba(0,0,0,.06), 0 2.7297px 2.24799px rgba(0,0,0,.07), 0 4.49709px 3.70349px rgba(0,0,0,.081), 0 7.85962px 6.47262px rgba(0,0,0,.096), 0 17px 14px rgba(0,0,0,.13);
+}
+
+.langDiv
+{
+    justify-self: right;
+    justify-content: right;
+    margin: 0.6rem ;
+}
+
+.langDiv img
+{
+    width: 2rem;
+    height: 1rem;
+}
+
+main
+{
+    width: 50%;
+    margin: 0 auto;
+}
+
+hr
+{
+    border: 1px solid var(--second_color);
+    border-radius: 1rem;
+    box-shadow: 0 0.393927px 0.324411px rgba(0,0,0,.034), 0 0.915912px 0.754281px rgba(0,0,0,.049), 0 1.64477px 1.35451px rgba(0,0,0,.06), 0 2.7297px 2.24799px rgba(0,0,0,.07), 0 4.49709px 3.70349px rgba(0,0,0,.081), 0 7.85962px 6.47262px rgba(0,0,0,.096), 0 17px 14px rgba(0,0,0,.13);
+}
+
+.aboutImg
+{
+    /* margin: 0 10%; */
+    border-radius: 1rem;
+    background-color: var(--second_color);
+    box-shadow: 0 0.393927px 0.324411px rgba(0,0,0,.034), 0 0.915912px 0.754281px rgba(0,0,0,.049), 0 1.64477px 1.35451px rgba(0,0,0,.06), 0 2.7297px 2.24799px rgba(0,0,0,.07), 0 4.49709px 3.70349px rgba(0,0,0,.081), 0 7.85962px 6.47262px rgba(0,0,0,.096), 0 17px 14px rgba(0,0,0,.13);
+    padding: 10px 5px;
+}
+
+.aboutImg img
+{
+    width: 22%;
+    border-radius: 1rem;
+    float: left;
+    margin-right: 2rem;
+}
+
+.aboutText
+{
+    margin: 1rem;
+}
+
+.profileLinks
+{
+    background-color: rgba(124, 193, 203, 0.53);
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.3rem;
+}
+
+.skillTag
+{
+    display: inline-block;
+    background-color: var(--accent_color);
+    margin: 10px 5px;
+    padding: 5px;
+    border-radius: 0.5rem;
+    font-weight: 700;
+}
+
+footer
+{
+    width: 100;
+    display: flex;
+    justify-content: center;
+    background-color: var(--second_color);
+}
+
+footer > div > a
+{
+    margin: .4rem .5rem;
+}
+
+a:visited, a:link
+{
+    color: var(--text_color);
+    text-decoration: none;
+}
+
+.cls
+{
+    clear: both;
+}
+
+.blank
+{
+    opacity: 0;
+}
+
+.localIC
+{
+    float: left;
+}
+
+.ZSElocal
+{
+    display: block;
+    height: 1.3rem;
+    /* width: 200%; */
+    font-size: 1.3rem;
+}
+
+._h1
+{
+    font-weight: 900;
+    font-size: 2rem;
+    display: flex;
+    margin-bottom: 0.375rem;
+}
+
+._h3
+{
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-left: 4px;
+}
+
+.aboutPanel
+{
+    /* width: 70%; */
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.localPanel
+{
+    margin-bottom: 1rem;
+    /* display: flex; */
+}
+
+.skillContainer
+{
+    border-radius: 1rem;
+    background-color: var(--second_color);
+    box-shadow: 0 0.393927px 0.324411px rgba(0,0,0,.034), 0 0.915912px 0.754281px rgba(0,0,0,.049), 0 1.64477px 1.35451px rgba(0,0,0,.06), 0 2.7297px 2.24799px rgba(0,0,0,.07), 0 4.49709px 3.70349px rgba(0,0,0,.081), 0 7.85962px 6.47262px rgba(0,0,0,.096), 0 17px 14px rgba(0,0,0,.13);
+    padding: 10px 5px;
+    margin-bottom: 2rem;
+}
+
+h1
+{
+    border-radius: 1rem;
+    /* background-color: var(--second_color); */
+    /* box-shadow: 0 0.393927px 0.324411px rgba(0,0,0,.034), 0 0.915912px 0.754281px rgba(0,0,0,.049), 0 1.64477px 1.35451px rgba(0,0,0,.06), 0 2.7297px 2.24799px rgba(0,0,0,.07), 0 4.49709px 3.70349px rgba(0,0,0,.081), 0 7.85962px 6.47262px rgba(0,0,0,.096), 0 17px 14px rgba(0,0,0,.13); */
+    padding: 1rem 0.5rem;
+    text-transform: uppercase;
+    /* text-align: center; */
+    padding-left: 5rem;
+    margin-left:  auto;
+    margin-right: auto;
+    color: rgb(222, 222, 222);
+    text-shadow: 0 0.393927px 0.324411px rgba(0,0,0,.034), 0 0.915912px 0.754281px rgba(0,0,0,.049), 0 1.64477px 1.35451px rgba(0,0,0,.06), 0 2.7297px 2.24799px rgba(0,0,0,.07), 0 4.49709px 3.70349px rgba(0,0,0,.081), 0 7.85962px 6.47262px rgba(0,0,0,.096), 0 17px 14px rgba(0,0,0,.13);
+    letter-spacing: 0.2rem;
+    font-weight: 900;
+    font-size: 2.1rem;
+}   
+
+h3
+{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.skillImg
+{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 1rem;
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 4rem;
+}
+
+.skillHolder
+{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
